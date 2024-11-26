@@ -9,8 +9,8 @@ speaking_flag = False
 speak("I cannot allow any unauthorized access.")
 speak("Authentication is about to begin, Please look directly at the camera")
 
-# isAuth = AuthenticateFace()
-isAuth = 1
+isAuth = AuthenticateFace()
+isAuth = 0
 
 if isAuth == 1:
     speak("Authentication successfull, Access granted")  
